@@ -28,6 +28,8 @@ header {
 	font-weight: bold;
 	letter-spacing: 1px;
 	float: left;
+	height: 90px;
+	width: 90px;
 }
 
 /* Fin logo barre haut */
@@ -83,10 +85,11 @@ nav a {
 /* Article */
 
 article img {
-	width: 100%;
-	max-width: 100%;
-	margin-top: 10px;
-	border-radius: 5px 5px 5px 5px;
+	display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+			height: 90px;
+			width: 90px;
 }
 
 
@@ -130,6 +133,7 @@ article p {
 
 
 
+
 article h2 {
 	text-align: center;
 	margin-top: 10px;
@@ -155,6 +159,27 @@ footer .articlefooter {
 	width: 100%;
 	max-width: 100%;
 	color: #fff;
+
+}
+
+footer .articlefooter h2 {
+	text-align: center;
+}
+
+footer .articlefooter p {
+	padding-top: 10px;
+	margin-top: 25px;
+	font-family: myriad pro;
+
+}
+
+
+footer .articlefooter img {
+	display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+			height: 90px;
+			width: 90px;
 
 }
 /* Fin Footer */
