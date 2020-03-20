@@ -102,7 +102,12 @@ article {
 	background-color: #fff;
 	margin-bottom: 30px;
 	padding: 30px 30px 30px 30px;
+}
 
+.tutoarticle {
+	display: block;
+	    margin-left: auto;
+	    margin-right: auto;
 }
 
 article p {
@@ -121,7 +126,22 @@ article h2 {
 	color: #312f2f;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #63ADF2;
+  color: white;
+}
 /* Fin Article */
 
 /* Footer */
