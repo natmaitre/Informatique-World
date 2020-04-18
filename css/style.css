@@ -3,12 +3,7 @@
 body, html {
 	padding: 0;
 	margin: 0;
-
 }
-
-
-
-
 /*Header barre haut */
 
 header {
@@ -46,7 +41,6 @@ nav a {
 nav a:hover {
 	text-decoration: none;
 	color: #7CB9E8;
-	-webkit-transition: 0.6s; /* Safari */
     transition:  0.6s;
 }
 
@@ -78,14 +72,16 @@ nav a:hover {
 .contenu {
 	padding-top: 10px;
 	background-color: #fff; /*Couleur Background*/
-
-
-
 }
 
 /* fin contenu du site */
 
 /* Article */
+.discord:hover {
+		text-decoration: none;
+		color: #680712;
+	    transition:  0.6s;
+	}
 
 article img {
 	display: block;
@@ -116,9 +112,6 @@ article p {
 	text-align: center;
 }
 
-
-
-
 article h2 {
 	text-align: center;
 	margin-top: 10px;
@@ -128,7 +121,25 @@ article h2 {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 400%;
+}
+
+.table1:hover {
+		text-decoration: none;
+		color: #3C45A4;
+	    transition:  0.6s;
+}
+
+.table2:hover {
+		text-decoration: none;
+		color: #3C45A4;
+    transition:  0.6s;
+}
+
+.table3:hover {
+			text-decoration: none;
+   		color: #3C45A4;
+	    transition:  0.6s;
 }
 
 th, td {
